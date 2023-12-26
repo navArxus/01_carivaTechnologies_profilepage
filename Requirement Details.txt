@@ -1,0 +1,39 @@
+Step 1- Personal Details
+
+Upload profile picture-input-only image q
+upload resume in pdf-input- only pdf q
+Full name-Input qw
+DOB-input-calender qw
+Gender-dropdown 
+Email id-input -email
+Contact number-input-number
+OTP-input- text
+Current location- input-text
+Preferred location- dropdown- options
+Job type- dropdown- options
+
+
+
+
+Step 2- Professionl Experience
+
+Current designation- input - text
+Current Organisation name- input - text
+Total experience in year- input -number
+Total experience in month - input- number
+Notice period in month - dropdown- options
+Skills- dropdown- options
+No of projects completed - input- number
+Current payout in month- input-number
+Expected payout in month -input-number
+
+Step 3- Education
+
+University/College name- input- text
+Qualification -dropdown- options
+Specialization- input- text
+Year of passing- dropdown- options
+
+Step 4- Social link
+Linkedin -input- link
+Git -input -link

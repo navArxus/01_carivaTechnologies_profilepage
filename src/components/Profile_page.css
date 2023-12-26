@@ -1,0 +1,155 @@
+.profile-page {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    width: 84%;
+    height: fit-content;
+    margin: 5% 8%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.189);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.porfile-page-profile-section {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+
+    img {
+        width: 120px;
+        border-radius: 100%;
+    }
+
+    h3,
+    p {
+        margin: 0;
+        padding: 0%;
+    }
+}
+
+.porfile-page-personal-section {
+    width: 38%;
+    padding: 2%;
+    border-left: 1px solid rgba(128, 128, 128, 0.556);
+    box-sizing: border-box;
+}
+
+.porfile-page-experience-section {
+    padding: 2%;
+    border-left: 1px solid rgba(128, 128, 128, 0.189);
+    box-sizing: border-box;
+    width: 38%;
+}
+
+
+
+/* For input feild  */
+.ProfilePageInputfield {
+    margin: 10px 0px;
+    width: 100%;
+
+    input {
+        font-size: medium;
+        height: 30px;
+        width: 100%;
+        border: 1px solid rgba(128, 128, 128, 0.6);
+        border-radius: 5px;
+
+        &::placeholder {
+            color: rgba(128, 128, 128, 0.452);
+        }
+    }
+
+}
+
+/* for drop down  */
+.ProfilePageDropdownFeild {
+    margin: 10px 0px;
+    width: 100%;
+
+    select {
+        font-size: medium;
+        height: 30px;
+        width: 100%;
+        border: 1px solid rgba(128, 128, 128, 0.6);
+        border-radius: 5px;
+
+        &::placeholder {
+            color: rgba(128, 128, 128, 0.452);
+        }
+    }
+}
+
+/* For file type  */
+.ProfilePagefileinput {
+    input::file-selector-button {
+        width: 50%;
+        height: 30px;
+        background-color: transparent;
+        border: 2px dotted grey;
+        border-radius: 5px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+.porfile-page-experience-section {
+    button {
+        background-image: linear-gradient(to right, #18042B, #681487);
+        color: white;
+        width: 140px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+        /* padding: 15px 30px; */
+        font-size: 1em;
+        font-weight: 700;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .profile-page {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .porfile-page-personal-section {
+        border: none;
+    }
+
+    .porfile-page-profile-section {
+        width: 100%;
+    }
+
+    .porfile-page-personal-section {
+        width: 100%;
+    }
+
+    .porfile-page-experience-section {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .porfile-page-profile-section {
+        width: 90%;
+    }
+
+    .porfile-page-personal-section {
+        width: 90%;
+    }
+
+    .porfile-page-experience-section {
+        width: 90%;
+    }
+}
