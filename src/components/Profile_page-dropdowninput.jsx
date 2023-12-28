@@ -3,7 +3,7 @@ import "./Profile_page.css"
 const ProfilePageDropdownFeild = (props) => {
     return (
         <div className="ProfilePageDropdownFeild">
-            <label htmlFor="">{props.label}</label>
+            <label htmlFor="">{props.label}{props.required && <span> *</span>}</label>
             <select name="" id="">
                 {props.values.map(opt => {
                     return(

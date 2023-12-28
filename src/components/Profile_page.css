@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
-    width: 84%;
+    width: 100%;
+    /*84 for the pop out look */
     height: fit-content;
-    margin: 5% 8%;
+    /* margin: 5% 8%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px; */
     background-color: white;
-    border-radius: 10px;
     border: 1px solid rgba(128, 128, 128, 0.189);
     display: flex;
     align-items: flex-start;
@@ -16,7 +17,7 @@
 
 
 .porfile-page-profile-section {
-    width: 25%;
+    width: 20%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -33,20 +34,42 @@
         margin: 0;
         padding: 0%;
     }
+
+    .ProfilePagefileinput {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 5%;
+
+        label {
+            text-align: center;
+            border: 2px solid #681487;
+            width: fit-content;
+            height: 30px;
+            text-align: center;
+            padding: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            border-radius: 10px;
+        }
+    }
 }
 
 .porfile-page-personal-section {
-    width: 38%;
+    width: 40%;
     padding: 2%;
     border-left: 1px solid rgba(128, 128, 128, 0.556);
+    border-right: 1px solid rgba(128, 128, 128, 0.556);
     box-sizing: border-box;
 }
 
 .porfile-page-experience-section {
+    width: 40%;
     padding: 2%;
-    border-left: 1px solid rgba(128, 128, 128, 0.189);
     box-sizing: border-box;
-    width: 38%;
 }
 
 
@@ -55,29 +78,49 @@
 .ProfilePageInputfield {
     margin: 10px 0px;
     width: 100%;
+    span {
+        color: red;
+    }
+    label {
+        font-size: 14px;
+    }
 
     input {
-        font-size: medium;
-        height: 30px;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+        margin-top: 5px;
+        font-size: 12px;
+        padding: 5px 10px;
+        height: 40px;
         width: 100%;
         border: 1px solid rgba(128, 128, 128, 0.6);
         border-radius: 5px;
-
+        
         &::placeholder {
             color: rgba(128, 128, 128, 0.452);
         }
     }
-
+    
 }
 
 /* for drop down  */
 .ProfilePageDropdownFeild {
     margin: 10px 0px;
     width: 100%;
-
+    span {
+        color: red;
+    }
+    label {
+        font-size: 14px;
+    }
+    
     select {
-        font-size: medium;
-        height: 30px;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 5px;
+        font-size: 12px;
+        padding: 5px 10px;
+        height: 40px;
         width: 100%;
         border: 1px solid rgba(128, 128, 128, 0.6);
         border-radius: 5px;
@@ -90,6 +133,7 @@
 
 /* For file type  */
 .ProfilePagefileinput {
+
     input::file-selector-button {
         width: 50%;
         height: 30px;
