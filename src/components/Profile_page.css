@@ -81,6 +81,10 @@
     span {
         color: red;
     }
+    .ProfilePageInputfield_error_msg {
+        color: red;
+        font-size: 12px;
+    }
     label {
         font-size: 14px;
     }

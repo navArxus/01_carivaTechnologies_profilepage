@@ -1,11 +1,15 @@
 import "./Profile_page.css"
+import {useField} from "formik"
 
-const ProfilePageDropdownFeild = (props) => {
+const ProfilePageDropdownFeild = ({label,values,required,...props}) => {
+
+    const [field, meta] = useField(props)
+
     return (
         <div className="ProfilePageDropdownFeild">
-            <label htmlFor="">{props.label}{props.required && <span> *</span>}</label>
-            <select name="" id="">
-                {props.values.map(opt => {
+            <label htmlFor="">{label}{required && <span> *</span>}</label>
+            <select {...field} {...props}>
+                {values.map(opt => {
                     return(
                         <option value={opt} key={opt}>{opt}</option>
                     )
