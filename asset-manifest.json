@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/01_carivaTechnologies_profilepage/static/css/main.699e1019.css",
-    "main.js": "/01_carivaTechnologies_profilepage/static/js/main.0a348bed.js",
+    "main.css": "/01_carivaTechnologies_profilepage/static/css/main.96542786.css",
+    "main.js": "/01_carivaTechnologies_profilepage/static/js/main.31cddb10.js",
     "static/js/787.3dd68d0c.chunk.js": "/01_carivaTechnologies_profilepage/static/js/787.3dd68d0c.chunk.js",
     "static/media/Avatar-Profile-Vector-PNG-File-removebg-preview.png": "/01_carivaTechnologies_profilepage/static/media/Avatar-Profile-Vector-PNG-File-removebg-preview.e0312209018f680e5fe0.png",
     "index.html": "/01_carivaTechnologies_profilepage/index.html",
-    "main.699e1019.css.map": "/01_carivaTechnologies_profilepage/static/css/main.699e1019.css.map",
-    "main.0a348bed.js.map": "/01_carivaTechnologies_profilepage/static/js/main.0a348bed.js.map",
+    "main.96542786.css.map": "/01_carivaTechnologies_profilepage/static/css/main.96542786.css.map",
+    "main.31cddb10.js.map": "/01_carivaTechnologies_profilepage/static/js/main.31cddb10.js.map",
     "787.3dd68d0c.chunk.js.map": "/01_carivaTechnologies_profilepage/static/js/787.3dd68d0c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.699e1019.css",
-    "static/js/main.0a348bed.js"
+    "static/css/main.96542786.css",
+    "static/js/main.31cddb10.js"
   ]
 }
