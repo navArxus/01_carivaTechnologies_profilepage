@@ -15,6 +15,9 @@ const ProfilePageDropdownFeild = ({label,values,required,...props}) => {
                     )
                 })}
             </select>
+            {meta.touched && meta.error ? (
+                <div className="ProfilePageInputfield_error_msg">{meta.error}</div>
+            ) : null}
         </div>
     )
 }

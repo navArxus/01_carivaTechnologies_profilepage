@@ -25,6 +25,7 @@ const InitialValues = {
     grudationYear:"",
     linkedin:"",
     github:"",
+    profilePhoto:"",
 }
 const phoneRegExp = /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/
 const validation = Yup.object({
@@ -42,7 +43,7 @@ const validation = Yup.object({
     totalExperieneYear:"",
     totalExperieneMonth:"",
     noticePeriodMonth:"",
-    skills:Yup.string().oneOf(["Front-end developer","Back-end developer","Full-stack developer"]),
+    skills:Yup.string().oneOf(["Front-end developer","Back-end developer","Full-stack developer"]).required("Required"),
     projectCompleted:"",
     currentPayoutMonth:"",
     expectedPayoutMonth:Yup.string().required("Required"),

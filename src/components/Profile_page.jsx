@@ -4,7 +4,7 @@ import Profilephoto from "../assests/Avatar-Profile-Vector-PNG-File-removebg-pre
 import ProfilePageInputfeild from "./Profile_page-inputfeild";
 import ProfilePageDropdownFeild from "./Profile_page-dropdowninput";
 import { IoAddCircleOutline } from "react-icons/io5";
-import { Formik } from "formik"
+import { Formik ,Form } from "formik"
 import { InitialValues, validation } from "./FormikParams"
 
 const ProfilePage = () => {
@@ -14,11 +14,10 @@ const ProfilePage = () => {
             initialValues={InitialValues}
             validationSchema={validation}
             onSubmit={values => {
-                console.log("Formik work")
                 console.log(values)
             }}
         >
-            <form>
+            <Form>
                 <div className="profile-page">
                     <div className="porfile-page-profile-section">
                         <img src={Profilephoto} alt="ProfilePhoto" />
@@ -68,7 +67,7 @@ const ProfilePage = () => {
                         <button type="submit" >Save profile</button>
                     </div>
                 </div>
-            </form>
+            </Form>
         </Formik>
     )
 }

@@ -78,13 +78,16 @@
 .ProfilePageInputfield {
     margin: 10px 0px;
     width: 100%;
+
     span {
         color: red;
     }
+
     .ProfilePageInputfield_error_msg {
         color: red;
         font-size: 12px;
     }
+
     label {
         font-size: 14px;
     }
@@ -99,25 +102,32 @@
         width: 100%;
         border: 1px solid rgba(128, 128, 128, 0.6);
         border-radius: 5px;
-        
+
         &::placeholder {
             color: rgba(128, 128, 128, 0.452);
         }
     }
-    
+
 }
 
 /* for drop down  */
 .ProfilePageDropdownFeild {
     margin: 10px 0px;
     width: 100%;
+
     span {
         color: red;
     }
+
+    .ProfilePageInputfield_error_msg {
+        color: red;
+        font-size: 12px;
+    }
+
     label {
         font-size: 14px;
     }
-    
+
     select {
         box-sizing: border-box;
         font-family: 'Poppins', sans-serif;
