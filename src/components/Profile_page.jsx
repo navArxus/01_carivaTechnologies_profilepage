@@ -1,8 +1,8 @@
 import React from "react";
 import "./Profile_page.css"
 import Profilephoto from "../assests/Avatar-Profile-Vector-PNG-File-removebg-preview.png"
-import ProfilePageInputfeild from "./Profile_page-inputfeild";
-import ProfilePageDropdownFeild from "./Profile_page-dropdowninput";
+import ProfilePageInputfeild from "./Profilepageinputfeild";
+import ProfilePageDropdownFeild from "./Profilepagedropdowninput";
 import { IoAddCircleOutline } from "react-icons/io5";
 import { Formik ,Form } from "formik"
 import { InitialValues, validation } from "./FormikParams"
